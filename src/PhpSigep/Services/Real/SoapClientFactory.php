@@ -52,6 +52,7 @@ class SoapClientFactory
             );
             // SOAP 1.1 client
             $params = array (
+                'cache_wsdl'            => WSDL_CACHE_BOTH,
                 'encoding'              => self::WEB_SERVICE_CHARSET, 
                 'verifypeer'            => false, 
                 'verifyhost'            => false, 
@@ -82,6 +83,7 @@ class SoapClientFactory
             );
             // SOAP 1.1 client
             $params = array (
+                'cache_wsdl'            => WSDL_CACHE_BOTH,
                 'encoding'              => self::WEB_SERVICE_CHARSET,
                 'verifypeer'            => false,
                 'verifyhost'            => false,
@@ -112,6 +114,7 @@ class SoapClientFactory
             );
             // SOAP 1.1 client
             $params = array (
+                'cache_wsdl'            => WSDL_CACHE_BOTH,
                 'encoding'              => self::WEB_SERVICE_CHARSET,
                 'verifypeer'            => false,
                 'verifyhost'            => false,
@@ -146,6 +149,7 @@ class SoapClientFactory
             );
             // SOAP 1.1 client
             $params = array (
+                'cache_wsdl'            => WSDL_CACHE_BOTH,
                 'encoding'              => 'UTF-8',
                 'verifypeer'            => false,
                 'verifyhost'            => false,
